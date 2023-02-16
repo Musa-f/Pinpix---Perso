@@ -1,0 +1,33 @@
+@media screen and (max-width:990px) {
+    .gallery-images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .gallery-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .gallery-images {
+        display: grid;
+        grid-template-columns: 1FR;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width:1000px){
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+}
