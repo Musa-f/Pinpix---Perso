@@ -31,6 +31,7 @@ a {
   font-size: 2.5em;
   color: #733a39;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .color-bordeau {
@@ -159,21 +160,12 @@ footer h1 {
   color: #000;
 }
 
-footer .services {
-  display: flex;
-  flex-wrap: wrap;
+.networks li {
+  list-style-type: none;
+  padding: 10px 0;
 }
-
-footer .services .service {
-  margin-right: 30px;
-}
-
-footer .services .service p {
-  max-width: 250px;
-}
-
-#end {
-  text-align: center;
+.networks li a i {
+  font-size: 2em;
 }
 
 .dimension {

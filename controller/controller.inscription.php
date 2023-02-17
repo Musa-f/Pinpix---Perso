@@ -57,6 +57,6 @@ session_start();
 
         $style = "inscription";
         include '../view/view.header.php';
-        include '../view/viscriptiew.inon.php';
+        include '../view/view.inscription.php';
         include '../view/view.footer.php';
     }

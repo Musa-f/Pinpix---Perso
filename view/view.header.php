@@ -50,7 +50,7 @@
 
             <div class="onglets">
                 <li><a href="../controller/controller.accueil.php">Accueil</a></li>
-                <li><a href="controller.php?page=contact">Contact</a></li>
+                <li><a href="../controller/controller.contact.php">Contact</a></li>
                 <?php 
 
                 if(!isset($_SESSION["role"])){

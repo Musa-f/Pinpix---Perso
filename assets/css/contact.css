@@ -1,39 +1,38 @@
-/* PAGE CONTACT*/
-.box {
+.box{
     position: relative;
 }
 
-#moncercle {
-    border-radius: 50%;
-    width: 600px;
-    height: 600px;
-    margin-bottom: 20px;
-    border: #733a39 8px solid;
+.infos-contact{
+    z-index: -1;
 }
 
-.rectangle {
+.bulle{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(189deg, rgb(137, 91, 91) 34%, rgb(94, 47, 46) 70%);
+    border-radius: 67% 33% 60% 40% / 38% 41% 59% 62%;
+}
+
+.bulle ul{
     position: absolute;
-    width: 700px;
-    top: 120px;
-    right: -250px;
-    bottom: 100px;
+    top: 130px;
+    left: 40px;
+    color: whitesmoke;
 }
 
-.btn-primary {
-    color: #733a39;
-    background-color: #fff;
+.bulle ul li{
+    padding: 10px 0;
+}
+
+.contact-us{
+    position: absolute;
+    width: 570px;
+    top: 70px;
+    left: 270px;
+}
+
+.form-changes{
+    background: #733a39;
     border: none;
-}
-
-.btn-primary:hover {
-    background: #FFF;
-    color: #733a39;
-}
-
-form.form-rectangle {
-    background-color: #62302f;
-}
-
-.form-group {
-    color: #fff;
 }
